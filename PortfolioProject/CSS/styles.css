@@ -1,0 +1,85 @@
+/*
+Krista Koller
+9/18/2024
+styles.css 
+*/
+
+/*CSS Reset */ body, header, nav, main, footer, img, h1, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* Style rules for body and images*/
+    body {
+        background-image: url(SunsetLakeAlvin.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #header {background-image: url(zebo_by_blackvelvet99_d8eie85-fullview.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+            text-align: center;
+            font-size: 45px;
+        }
+/*Style for Navigation*/
+
+        nav {background-color: rgb(0, 22, 99) ; }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            text-align: center; 
+            }
+        nav li {
+            display: inline-block;
+            font-size: 1.5em;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold}
+       
+        nav li a {
+            display: block;
+            color: white;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            padding-left: 5em;
+            padding-right: 2em;
+            text-decoration: none}
+
+/* Style for Div description and images */
+        .columns {
+            column-count: 2;
+            column-rule: 2px solid rgb(0, 22, 99);
+            column-gap: 3rem;
+            padding: 20px;
+        }
+
+        .columns h1 {
+            text-align: center;
+        }
+
+        .columns h2 {
+            text-align: center;
+        }
+
+        #secondcolumn {
+            break-before: column;
+        }
+
+        .columns p {
+            text-align: center;
+            break-inside: avoid;
+            font-size: 25px;
+        }
+        .columns ul li {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        img {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+        }
